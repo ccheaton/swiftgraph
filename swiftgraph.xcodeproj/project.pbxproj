@@ -12,6 +12,9 @@
 		6FF4909D1B71068C007C554E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FF4909B1B71068C007C554E /* MainMenu.xib */; };
 		6FF490A81B71068C007C554E /* swiftgraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF490A71B71068C007C554E /* swiftgraphTests.swift */; };
 		6FF490B31B71068C007C554E /* swiftgraphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF490B21B71068C007C554E /* swiftgraphUITests.swift */; };
+		6FF490C11B7106AD007C554E /* CHGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF490C01B7106AD007C554E /* CHGraph.swift */; };
+		6FF490C31B719EE2007C554E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF490C21B719EE2007C554E /* Queue.swift */; };
+		6FF490C61B71A127007C554E /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF490C41B719F37007C554E /* QueueTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		6FF490AE1B71068C007C554E /* swiftgraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftgraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF490B21B71068C007C554E /* swiftgraphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftgraphUITests.swift; sourceTree = "<group>"; };
 		6FF490B41B71068C007C554E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF490C01B7106AD007C554E /* CHGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHGraph.swift; sourceTree = "<group>"; };
+		6FF490C21B719EE2007C554E /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		6FF490C41B719F37007C554E /* QueueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				6FF490971B71068C007C554E /* AppDelegate.swift */,
+				6FF490C01B7106AD007C554E /* CHGraph.swift */,
+				6FF490C21B719EE2007C554E /* Queue.swift */,
 				6FF490991B71068C007C554E /* Assets.xcassets */,
 				6FF4909B1B71068C007C554E /* MainMenu.xib */,
 				6FF4909E1B71068C007C554E /* Info.plist */,
@@ -105,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				6FF490A71B71068C007C554E /* swiftgraphTests.swift */,
+				6FF490C41B719F37007C554E /* QueueTests.swift */,
 				6FF490A91B71068C007C554E /* Info.plist */,
 			);
 			path = swiftgraphTests;
@@ -249,6 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FF490981B71068C007C554E /* AppDelegate.swift in Sources */,
+				6FF490C31B719EE2007C554E /* Queue.swift in Sources */,
+				6FF490C11B7106AD007C554E /* CHGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FF490A81B71068C007C554E /* swiftgraphTests.swift in Sources */,
+				6FF490C61B71A127007C554E /* QueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
